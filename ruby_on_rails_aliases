@@ -1,0 +1,7 @@
+alias dbr='bundle exec rails db:drop db:create db:migrate; bundle exec rails db:seed'
+alias dbm='bundle exec rails db:migrate'
+alias ssps='bundle exec rails sunspot:solr:start'
+alias sspr='bundle exec rails sunspot:solr:restart'
+alias berc='bundle exec rails c'
+alias bers='bundle exec rails s'
+alias dbs='bundle exec rails db:seed'
